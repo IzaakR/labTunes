@@ -14,6 +14,11 @@
 		A925406C2196592E005351A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A925406A2196592E005351A2 /* LaunchScreen.storyboard */; };
 		A92540772196592E005351A2 /* labTunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92540762196592E005351A2 /* labTunesTests.swift */; };
 		A92540822196592E005351A2 /* labTunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92540812196592E005351A2 /* labTunesUITests.swift */; };
+		A92540912196594A005351A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92540902196594A005351A2 /* User.swift */; };
+		A9254093219662AB005351A2 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9254092219662AB005351A2 /* Session.swift */; };
+		A925409521966486005351A2 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = A925409421966486005351A2 /* Music.swift */; };
+		A925409721966492005351A2 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = A925409621966492005351A2 /* Song.swift */; };
+		A925409921966BA1005351A2 /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A925409821966BA1005351A2 /* NetworkTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		A925407D2196592E005351A2 /* labTunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = labTunesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92540812196592E005351A2 /* labTunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = labTunesUITests.swift; sourceTree = "<group>"; };
 		A92540832196592E005351A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92540902196594A005351A2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A9254092219662AB005351A2 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		A925409421966486005351A2 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		A925409621966492005351A2 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		A925409821966BA1005351A2 /* NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		A92540602196592D005351A2 /* labTunes */ = {
 			isa = PBXGroup;
 			children = (
+				A925408F21965934005351A2 /* Models */,
 				A92540612196592D005351A2 /* AppDelegate.swift */,
 				A92540632196592D005351A2 /* ViewController.swift */,
 				A92540652196592D005351A2 /* Main.storyboard */,
@@ -112,6 +123,7 @@
 			children = (
 				A92540762196592E005351A2 /* labTunesTests.swift */,
 				A92540782196592E005351A2 /* Info.plist */,
+				A925409821966BA1005351A2 /* NetworkTests.swift */,
 			);
 			path = labTunesTests;
 			sourceTree = "<group>";
@@ -123,6 +135,17 @@
 				A92540832196592E005351A2 /* Info.plist */,
 			);
 			path = labTunesUITests;
+			sourceTree = "<group>";
+		};
+		A925408F21965934005351A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A92540902196594A005351A2 /* User.swift */,
+				A9254092219662AB005351A2 /* Session.swift */,
+				A925409421966486005351A2 /* Music.swift */,
+				A925409621966492005351A2 /* Song.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A925409721966492005351A2 /* Song.swift in Sources */,
+				A9254093219662AB005351A2 /* Session.swift in Sources */,
 				A92540642196592D005351A2 /* ViewController.swift in Sources */,
+				A925409521966486005351A2 /* Music.swift in Sources */,
 				A92540622196592D005351A2 /* AppDelegate.swift in Sources */,
+				A92540912196594A005351A2 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A925409921966BA1005351A2 /* NetworkTests.swift in Sources */,
 				A92540772196592E005351A2 /* labTunesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
